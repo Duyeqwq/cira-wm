@@ -11,7 +11,10 @@ Updated: 2026-10-27.
 - The long-bar pilot has only three independent physical initial states.
 - Persistent constraints do not solve static/background drift.
 - The larger two-task campaign is not presented as completed here.
-- Videos are simulation/intervention previews, not CIRA prediction comparisons.
+- Three BEHAVIOR colored-point-cloud excerpts replace the old simulation grids.
+  Desktop uses three columns; narrow screens stack the same three videos.
+  Each video replays 11 recorded GT states, not CIRA predictions or task success.
+  Source physical timing is not certified; playback is 2.5 states/second.
 - The compact companion's 11 standalone CPU constraint tests passed; the static
   showcase also passed desktop, mobile and narrow-mobile playback/layout checks.
 - No training, model inference, simulator rollout or hardware execution was

@@ -9,9 +9,15 @@ CIRA-WM builds on NVIDIA PointWorld:
 https://github.com/NVlabs/PointWorld
 
 This compact companion does not redistribute the full PointWorld backbone,
-PTv3 implementation, DINOv3 code, pretrained weights or third-party datasets.
+PTv3 implementation, DINOv3 code, pretrained weights or raw third-party datasets.
 Those components retain their own upstream copyright and license terms.
 
-Three simulation task/intervention videos and their poster images are included.
-They are not CIRA prediction comparisons or learned-policy success evidence.
+Three rendered BEHAVIOR colored-point-cloud excerpts and posters are included.
+Source annotations: NVIDIA PointWorld-BEHAVIOR, derived from BEHAVIOR.
+Dataset reference: https://huggingface.co/datasets/nvidia/PointWorld-BEHAVIOR
+Original project: https://behavior.stanford.edu/
+These excerpts replay recorded ground-truth geometry; they are not CIRA
+prediction comparisons, continuous model rollouts or task-success evidence.
+Source-data and asset terms remain applicable to media. The repository code
+license does not replace those terms or grant a new license to source datasets.
 No ownership of external robot assets or upstream world models is claimed.

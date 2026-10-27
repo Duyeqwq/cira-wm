@@ -67,18 +67,23 @@ drawer success or hardware-safety claim follows.
 
 [Open-loop evidence](docs/evidence/candidate-open-loop.json) · [Small-pilot evidence](docs/evidence/longbar-small-pilot.json)
 
-## Three Curated MP4s
+## Three Point-Cloud Excerpts
 
-[Long-Bar Interventions](docs/media/longbar-interventions.mp4) ·
-[Asymmetric Contact](docs/media/asymmetric-contact.mp4) ·
-[Drawer Transfer](docs/media/drawer-transfer.mp4)
+[Tabletop Interaction](docs/media/behavior-radio.mp4) ·
+[Kitchen Interaction](docs/media/behavior-kitchen.mp4) ·
+[Tool Handling](docs/media/behavior-toolbox.mp4)
 
-Exactly three existing simulation previews, approximately 2.6 MiB combined.
-They show tasks/interventions, **not CIRA predictions or learned-policy success**.
+Three independent BEHAVIOR colored-point-cloud excerpts, displayed side by side
+on the project page. They replay **recorded ground-truth geometry, not CIRA
+predictions or learned-policy success**. Each clip contains 11 recorded states,
+shown at 2.5 states per playback second; physical timing is not certified.
+No new inference, training or simulation was run to produce these visualizations.
+[Media source and interpretation](docs/media/README.md).
 
 ## Attribution
 
 Built on [NVIDIA PointWorld](https://github.com/NVlabs/PointWorld).
 Upstream PointWorld, PTv3 and DINOv3 are not claimed as original CIRA-WM work.
-This compact companion does not redistribute their pretrained weights or datasets.
+This compact companion does not redistribute pretrained weights or raw datasets.
+The rendered excerpts retain their applicable source-data terms.
 See [LICENSE](LICENSE) and [NOTICE](NOTICE). No CIRA-WM paper, venue or DOI is asserted.

@@ -37,46 +37,112 @@
   ],
   "media": [
     {
-      "path": "docs/media/longbar-interventions.mp4",
-      "source": "manskill/artifacts/dual_panda_bar_pilot/scene_000/all6_comparison.mp4",
-      "title": "Long-bar intervention preview",
-      "interpretation": "simulation intervention grid; not CIRA predictions",
-      "sha256": "b163ad21ebd6dc44cb446271ac21fb43f44523e8eb8d7fd137ce974b6a66d983",
-      "bytes": 373212,
-      "decoded_frames": 143,
-      "fps": 15.0,
+      "path": "docs/media/behavior-radio.mp4",
+      "title": "Tabletop interaction",
+      "source": "train/task-0000-000000.tar",
+      "source_key": "task-0000_episode_00000410-235:246",
+      "source_member_sha256": {
+        "clip_attributes.pyd": "b9e6543c6b04586ad285b69f5d12baec2b50c712d27edc214eba254210d9e960",
+        "camera_head_extrinsic.npy": "cc6fd678b1ca128bbe80a852a99269cd47090d74f55e38c4ebcefda121b3a8b2",
+        "camera_head_initial_rgb.jpg": "db72713219725509f0beffed82cb130572b054ed5df42c75ee1bb05078de9c83",
+        "camera_head_intrinsic.npy": "9bb695d5c4b18f6c277efb5c19d5e19364c1c6aad0e7c3428f4c6ce5dffe0d13",
+        "camera_head_local_scene_points.pyd": "23ec9c3ba2d247645d9552e2fdae5cd73397c3afe0b8c6c39c02db87060d4ce6",
+        "camera_head_local_scene_colors.pyd": "347c5452c8ee382a4674c043c6b198aacf695aff2caf1b18ff634f46148fdd78",
+        "camera_head_scene_mesh_trajectories.pyd": "ddb57372f4fcd13b36d8eb0b80e2e2f47d3dd586e3badcfb8964f2a7c5bc56e5",
+        "camera_left_local_scene_points.pyd": "aa31643b74d48f3de34373dc61477184779c9223660d5c30ee34cb79e14c1e94",
+        "camera_left_local_scene_colors.pyd": "d83e3780b021a329057f0701f700fd194b415717d19c1abe17dcb17dd0c063e3",
+        "camera_left_scene_mesh_trajectories.pyd": "5f04523490914136188e0494142092b5d55ee88d9a264f47a84d7ed6ed7c9fcf",
+        "camera_right_local_scene_points.pyd": "95288e2cb0b6b2db74f7450c148adfb08b70b0853c0f3059124a7a394e9cde1c",
+        "camera_right_local_scene_colors.pyd": "86306a711ceac0dd4053e7882240c5e8e1a1c0fb70eea73a91e9f886e8828508",
+        "camera_right_scene_mesh_trajectories.pyd": "5f04523490914136188e0494142092b5d55ee88d9a264f47a84d7ed6ed7c9fcf"
+      },
+      "interpretation": "Recorded ground-truth point-cloud replay, not CIRA predictions",
+      "sha256": "fdd06f3b4c22ed1ddfcabd5ff9a76af9d60977949069354b81ef2550817026b5",
+      "bytes": 63879,
+      "decoded_frames": 88,
+      "fps": 20,
       "size": [
-        960,
-        480
-      ]
+        800,
+        500
+      ],
+      "duration_seconds": 4.4,
+      "source_states": 11,
+      "source_points": 17689,
+      "minimum_pixel_variance": 2366.592420176632,
+      "scene_first_last_mean_pixel_difference": 1.0046475,
+      "poster_sha256": "4f4e889214381b7210f4d3e1c3ea9bd02bfaed253381e4d8bed1de75b1c76d29"
     },
     {
-      "path": "docs/media/asymmetric-contact.mp4",
-      "source": "manskill/artifacts/dual_panda_asymmetric_support_pilot_v1/asymmetric_contact_grid.mp4",
-      "title": "Asymmetric contact preview",
-      "interpretation": "simulation contact grid; not a learned-model comparison",
-      "sha256": "3c395e092bbd654f8ce883cf554643e9ebf02a548792bbc85b180b821f630459",
-      "bytes": 583826,
-      "decoded_frames": 153,
-      "fps": 15.0,
+      "path": "docs/media/behavior-kitchen.mp4",
+      "title": "Kitchen interaction",
+      "source": "train/task-0008-000006.tar",
+      "source_key": "task-0008_episode_00080460-580:591",
+      "source_member_sha256": {
+        "clip_attributes.pyd": "c2ed7df467861c416a958c00e5f83f25b3e8097375171e0cf2f63a351cb79dd4",
+        "camera_head_extrinsic.npy": "10a618eb60e861afb60ff51928177ca100d7e24da8ca8e88c3f587245ea1feb4",
+        "camera_head_initial_rgb.jpg": "5ceb805b4f8ed39fbeb9c80faaa1024d6aa9b13ee2ef7748031962fb0638fc69",
+        "camera_head_intrinsic.npy": "9bb695d5c4b18f6c277efb5c19d5e19364c1c6aad0e7c3428f4c6ce5dffe0d13",
+        "camera_head_local_scene_points.pyd": "791281339bbb493527208c619a2bab6c69cdf1b8adad0c50a55e083223662715",
+        "camera_head_local_scene_colors.pyd": "95473934942209cb4a5339298152f8f17e7abcc26eb7020fbf65b0f94a4a27f0",
+        "camera_head_scene_mesh_trajectories.pyd": "b39d59842298d97d42010bf22e15248825e00c7a8e9225d62335b6c657b76795",
+        "camera_left_local_scene_points.pyd": "0241ffdd8e809be80709a6a1b93311038b81af70d4375ba0d0ce80e15123a396",
+        "camera_left_local_scene_colors.pyd": "7f67a66892a9fe47ff496533c46de76c4ee76e35b43dee4e30b045544d6d68af",
+        "camera_left_scene_mesh_trajectories.pyd": "d8ec611a2feb838cbdbf5073c71d072f94b1f30104d6ff72fab52c8c5f1f6fad",
+        "camera_right_local_scene_points.pyd": "6dc3d9cbb4118d475801c8430643181f1af34f2315ba112b415e450a14989014",
+        "camera_right_local_scene_colors.pyd": "9e7714801290f9fc86528cb2bcb204b56ce7568cf28a1ddcf35f1056bfa74558",
+        "camera_right_scene_mesh_trajectories.pyd": "d8ec611a2feb838cbdbf5073c71d072f94b1f30104d6ff72fab52c8c5f1f6fad"
+      },
+      "interpretation": "Recorded ground-truth point-cloud replay, not CIRA predictions",
+      "sha256": "661ca26a87b90d86ed0d48b6f64255c4a2b3247060263c999a6ca17a4e71993a",
+      "bytes": 81187,
+      "decoded_frames": 88,
+      "fps": 20,
       "size": [
-        1440,
-        540
-      ]
+        800,
+        500
+      ],
+      "duration_seconds": 4.4,
+      "source_states": 11,
+      "source_points": 34885,
+      "minimum_pixel_variance": 3409.6719856541977,
+      "scene_first_last_mean_pixel_difference": 1.0520025,
+      "poster_sha256": "1b152fbdcd9c864057f2857001f7abf68116179f3704d299e5d56308b8da7ad8"
     },
     {
-      "path": "docs/media/drawer-transfer.mp4",
-      "source": "manskill/artifacts/drawer_long_slide_pick_v1/transfer_seed3300_replay.mp4",
-      "title": "Drawer transfer preview",
-      "interpretation": "scripted simulation replay; not closed-loop CIRA success evidence",
-      "sha256": "89da9c8e1a977a10075ebdb3a1708a1c10a55c8466018072954eddefa8d42d00",
-      "bytes": 1757657,
-      "decoded_frames": 426,
-      "fps": 10.0,
+      "path": "docs/media/behavior-toolbox.mp4",
+      "title": "Tool handling",
+      "source": "train/task-0019-000026.tar",
+      "source_key": "task-0019_episode_00192350-735:746",
+      "source_member_sha256": {
+        "clip_attributes.pyd": "29697502415bf75f1cee27e302f29c6646069875de58bebaa46545097ccfab5f",
+        "camera_head_extrinsic.npy": "c36d8ab4d18d78feec40ada186f52d465de498eaaef23958ba11a52cc368dc8e",
+        "camera_head_initial_rgb.jpg": "9ee386cd5ad088c05b0ca235c7a0af851e2f60b144be459fd5d0713c493d878f",
+        "camera_head_intrinsic.npy": "9bb695d5c4b18f6c277efb5c19d5e19364c1c6aad0e7c3428f4c6ce5dffe0d13",
+        "camera_head_local_scene_points.pyd": "143f09272874ade27a575e663d7cb61ea6cfc806aa9b5def61371e428a4281d7",
+        "camera_head_local_scene_colors.pyd": "62b66b451e1a1763dc66543c527dbab70f289d2e501382192f7ad479602cd21f",
+        "camera_head_scene_mesh_trajectories.pyd": "1145d4a6454b414796b5afcf48e6f41f8f07740dd1741fbed6322faee10cbf51",
+        "camera_left_local_scene_points.pyd": "024df8a9c74a46201d46e19d05d5aaa7aa0a16f8f85565215a79dcea9be2589f",
+        "camera_left_local_scene_colors.pyd": "768fa5aae2c7d7534cb240dd1f8a07cddbe3a8ce84b3a2d23adbd5c10bf6a6c4",
+        "camera_left_scene_mesh_trajectories.pyd": "9c73bae6f41558e86b2b011417fddbb552122f6047d988ade0fc703f65bd1870",
+        "camera_right_local_scene_points.pyd": "16008104df4668ed34317f671c09eb5a0cde6a97317eaa4237ed895f6f13a17d",
+        "camera_right_local_scene_colors.pyd": "0989fbbfc65f96b5246e971d0822aab3abc688e6dc201a53187129b7b201f7f6",
+        "camera_right_scene_mesh_trajectories.pyd": "9c73bae6f41558e86b2b011417fddbb552122f6047d988ade0fc703f65bd1870"
+      },
+      "interpretation": "Recorded ground-truth point-cloud replay, not CIRA predictions",
+      "sha256": "33666e682bdb9b7f82675ef5cd9ba1109707fce1ad99c75552de7470d482fa3e",
+      "bytes": 54385,
+      "decoded_frames": 88,
+      "fps": 20,
       "size": [
-        1280,
-        576
-      ]
+        800,
+        500
+      ],
+      "duration_seconds": 4.4,
+      "source_states": 11,
+      "source_points": 37466,
+      "minimum_pixel_variance": 1477.6808095269969,
+      "scene_first_last_mean_pixel_difference": 0.45158166666666666,
+      "poster_sha256": "339ecc007504f034c765267e9a024e6780d8372d5bfc6ff86c3f50f5df2a39e6"
     }
   ],
   "excluded": [
@@ -93,5 +159,20 @@
     "name": "D-Star-Robotics/CIRA-WM",
     "visibility": "private",
     "source_commit": "e5312d488c8034be940bc3fc82586e1f25eb4c3a"
+  },
+  "media_update": {
+    "source_dataset": "nvidia/PointWorld-BEHAVIOR",
+    "rendering": "Recorded mesh poses applied to colored mesh-local samples; head and two wrist observations concatenated; no geometry completion",
+    "camera": "Fixed, metric-aspect orthographic view with illustration-only crop",
+    "timing": "11 recorded states, 8 encoded frames per state, 20fps; physical timestamps/fps not certified; no interpolation",
+    "selection": "Three already inspected validation clips, not evaluation evidence",
+    "model_inference": false,
+    "training": false,
+    "simulation": false,
+    "gpu": false,
+    "media_license": "Source data and rendered excerpts retain applicable third-party terms; repository code license is not a dataset license",
+    "renderer_sha256": "5f0356a683d3a885cc35e5eebe3fd31e369db736e8df810a9c569332d92f73ba",
+    "geometry_helper_sha256": "1df36574c8bc1a81099cf6501f3f2c04587a1f3938a202205ece77c69bd4aed4",
+    "project_card_sha256": "af40f5f8ee0c21d11d33a47a4f92d63e0fa2add6acdbcc9ff661c3e4aa95d0df"
   }
 }
