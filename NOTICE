@@ -1,0 +1,17 @@
+CIRA-WM compact public companion, 2026-10-27.
+
+Selected research method modules are copied without modification from
+D-Star-Robotics/CIRA-WM commit e5312d488c8034be940bc3fc82586e1f25eb4c3a.
+SOURCE_MANIFEST.json records their original source paths and content identities.
+The existing repository license text is retained in LICENSE.
+
+CIRA-WM builds on NVIDIA PointWorld:
+https://github.com/NVlabs/PointWorld
+
+This compact companion does not redistribute the full PointWorld backbone,
+PTv3 implementation, DINOv3 code, pretrained weights or third-party datasets.
+Those components retain their own upstream copyright and license terms.
+
+Three simulation task/intervention videos and their poster images are included.
+They are not CIRA prediction comparisons or learned-policy success evidence.
+No ownership of external robot assets or upstream world models is claimed.

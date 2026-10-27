@@ -1,0 +1,1051 @@
+{
+  "status": "CANDIDATE_DEVELOPMENT_COMPARISON",
+  "rows": [
+    {
+      "seed": 21,
+      "variant": "cira",
+      "selected_update": 4000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 10.104076439684142,
+        "l2_static/mean": 0.7053403436984198,
+        "l2/mean": 0.8893842688125729
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 9.939986971831596,
+          "l2_static/mean": 0.6988953308011204,
+          "l2/mean": 0.8917016761558512
+        },
+        "task-0001": {
+          "l2_moved/mean": 8.884275040540357,
+          "l2_static/mean": 0.6917359771051559,
+          "l2/mean": 1.019441840597265
+        },
+        "task-0008": {
+          "l2_moved/mean": 8.91969802696941,
+          "l2_static/mean": 0.6545805869207546,
+          "l2/mean": 0.8084053472694419
+        },
+        "task-0011": {
+          "l2_moved/mean": 18.967486735561213,
+          "l2_static/mean": 0.9369734685314574,
+          "l2/mean": 1.4219146296811416
+        },
+        "task-0018": {
+          "l2_moved/mean": 5.707122632085077,
+          "l2_static/mean": 0.5166958081505624,
+          "l2/mean": 0.5554839310774945
+        },
+        "task-0019": {
+          "l2_moved/mean": 13.101522349862275,
+          "l2_static/mean": 0.679883715666608,
+          "l2/mean": 0.7541782712305859
+        },
+        "task-0022": {
+          "l2_moved/mean": 7.097995676209521,
+          "l2_static/mean": 0.6550200077754822,
+          "l2/mean": 0.7778759873137728
+        },
+        "task-0035": {
+          "l2_moved/mean": 8.214524084413702,
+          "l2_static/mean": 0.8089378546362174,
+          "l2/mean": 0.8860724671750312
+        }
+      }
+    },
+    {
+      "seed": 21,
+      "variant": "cira_persistent",
+      "selected_update": 2000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 9.886610708516162,
+        "l2_static/mean": 0.9979482611720586,
+        "l2/mean": 1.1699944725783507
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 10.102361117388092,
+          "l2_static/mean": 1.0325254858420247,
+          "l2/mean": 1.2213123380855202
+        },
+        "task-0001": {
+          "l2_moved/mean": 8.499997037337303,
+          "l2_static/mean": 1.002146817001555,
+          "l2/mean": 1.2957904288343551
+        },
+        "task-0008": {
+          "l2_moved/mean": 8.619461884544975,
+          "l2_static/mean": 0.9349960388949557,
+          "l2/mean": 1.0738822276043234
+        },
+        "task-0011": {
+          "l2_moved/mean": 18.61019303623407,
+          "l2_static/mean": 1.2358649081420217,
+          "l2/mean": 1.6993479992007237
+        },
+        "task-0018": {
+          "l2_moved/mean": 5.6043095900723845,
+          "l2_static/mean": 0.7852459176821817,
+          "l2/mean": 0.8198722023899049
+        },
+        "task-0019": {
+          "l2_moved/mean": 12.475788159225282,
+          "l2_static/mean": 0.9847854527926369,
+          "l2/mean": 1.0542370851904257
+        },
+        "task-0022": {
+          "l2_moved/mean": 7.107402991300677,
+          "l2_static/mean": 0.9708660410099587,
+          "l2/mean": 1.0837434478377366
+        },
+        "task-0035": {
+          "l2_moved/mean": 8.073371852026519,
+          "l2_static/mean": 1.0371554280111344,
+          "l2/mean": 1.111770051483816
+        }
+      }
+    },
+    {
+      "seed": 21,
+      "variant": "effect_transport",
+      "selected_update": 5000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 94.54069593702472,
+        "l2_static/mean": 1.6847596051292604,
+        "l2/mean": 3.7117874406427203
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 70.36634044814852,
+          "l2_static/mean": 1.4663346763110863,
+          "l2/mean": 3.2775099934681355
+        },
+        "task-0001": {
+          "l2_moved/mean": 102.83924863734022,
+          "l2_static/mean": 1.2894167081536136,
+          "l2/mean": 6.673724914943831
+        },
+        "task-0008": {
+          "l2_moved/mean": 91.03198331299785,
+          "l2_static/mean": 2.3160669196853094,
+          "l2/mean": 4.0072389758953815
+        },
+        "task-0011": {
+          "l2_moved/mean": 135.39412451416183,
+          "l2_static/mean": 2.551436535619406,
+          "l2/mean": 5.877489751903041
+        },
+        "task-0018": {
+          "l2_moved/mean": 75.06230334290598,
+          "l2_static/mean": 1.3005600771816,
+          "l2/mean": 1.984796566859283
+        },
+        "task-0019": {
+          "l2_moved/mean": 93.74330232301723,
+          "l2_static/mean": 1.5851512023343073,
+          "l2/mean": 1.9558443616692145
+        },
+        "task-0022": {
+          "l2_moved/mean": 108.32757187447396,
+          "l2_static/mean": 1.5301150644301647,
+          "l2/mean": 3.701099852376615
+        },
+        "task-0035": {
+          "l2_moved/mean": 79.56069304315207,
+          "l2_static/mean": 1.438995657318596,
+          "l2/mean": 2.2165951080262616
+        }
+      }
+    },
+    {
+      "seed": 21,
+      "variant": "effect_transport_persistent",
+      "selected_update": 5000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 95.75917753778342,
+        "l2_static/mean": 2.299548322322985,
+        "l2/mean": 4.330828878244337
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 71.09736521136921,
+          "l2_static/mean": 2.039119166080922,
+          "l2/mean": 3.8363401634531225
+        },
+        "task-0001": {
+          "l2_moved/mean": 102.95715476063225,
+          "l2_static/mean": 1.8583310145600431,
+          "l2/mean": 7.201170332607948
+        },
+        "task-0008": {
+          "l2_moved/mean": 91.39173795730989,
+          "l2_static/mean": 2.7329336802240647,
+          "l2/mean": 4.420094796776827
+        },
+        "task-0011": {
+          "l2_moved/mean": 138.90694044044972,
+          "l2_static/mean": 3.2375409797566506,
+          "l2/mean": 6.633842173703234
+        },
+        "task-0018": {
+          "l2_moved/mean": 77.10858510772805,
+          "l2_static/mean": 2.044093816983389,
+          "l2/mean": 2.7472757970394257
+        },
+        "task-0019": {
+          "l2_moved/mean": 94.03844317885978,
+          "l2_static/mean": 1.9875638850756545,
+          "l2/mean": 2.360029316160892
+        },
+        "task-0022": {
+          "l2_moved/mean": 108.24001184683765,
+          "l2_static/mean": 2.320848468528995,
+          "l2/mean": 4.4751798119001185
+        },
+        "task-0035": {
+          "l2_moved/mean": 82.33318179908079,
+          "l2_static/mean": 2.175955567374161,
+          "l2/mean": 2.9726986343131276
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "cira",
+      "selected_update": 4000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 10.185900738732727,
+        "l2_static/mean": 0.747553704385989,
+        "l2/mean": 0.9330227395676142
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 10.507057583810994,
+          "l2_static/mean": 0.7997850411765798,
+          "l2/mean": 0.9973001375198729
+        },
+        "task-0001": {
+          "l2_moved/mean": 8.741222105915288,
+          "l2_static/mean": 0.7653769703508063,
+          "l2/mean": 1.089727142498036
+        },
+        "task-0008": {
+          "l2_moved/mean": 8.820026823758095,
+          "l2_static/mean": 0.6832418757489803,
+          "l2/mean": 0.837392700118195
+        },
+        "task-0011": {
+          "l2_moved/mean": 19.0645954341893,
+          "l2_static/mean": 0.9596704567867582,
+          "l2/mean": 1.4463538784806904
+        },
+        "task-0018": {
+          "l2_moved/mean": 5.642164344163324,
+          "l2_static/mean": 0.5512500564590072,
+          "l2/mean": 0.5900531958237024
+        },
+        "task-0019": {
+          "l2_moved/mean": 12.944545916360115,
+          "l2_static/mean": 0.7198644246162083,
+          "l2/mean": 0.7951021981073287
+        },
+        "task-0022": {
+          "l2_moved/mean": 7.538763978007586,
+          "l2_static/mean": 0.7165912172462101,
+          "l2/mean": 0.8453412494858744
+        },
+        "task-0035": {
+          "l2_moved/mean": 8.228829723657116,
+          "l2_static/mean": 0.7846495927033615,
+          "l2/mean": 0.8629114145072139
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "cira_persistent",
+      "selected_update": 4000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 10.169377226901213,
+        "l2_static/mean": 0.838957422612079,
+        "l2/mean": 1.0220481721976071
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 10.793409299875176,
+          "l2_static/mean": 0.8648215618917418,
+          "l2/mean": 1.0644746805101728
+        },
+        "task-0001": {
+          "l2_moved/mean": 8.731007345621714,
+          "l2_static/mean": 0.8703225518414237,
+          "l2/mean": 1.1872893944723444
+        },
+        "task-0008": {
+          "l2_moved/mean": 8.95558001352059,
+          "l2_static/mean": 0.7626375369950756,
+          "l2/mean": 0.9175436598302311
+        },
+        "task-0011": {
+          "l2_moved/mean": 19.00949011941111,
+          "l2_static/mean": 1.0576890997559294,
+          "l2/mean": 1.5410701059911975
+        },
+        "task-0018": {
+          "l2_moved/mean": 5.6031849881112,
+          "l2_static/mean": 0.6504445092875152,
+          "l2/mean": 0.6871485529147143
+        },
+        "task-0019": {
+          "l2_moved/mean": 12.586246517858829,
+          "l2_static/mean": 0.8124294266746163,
+          "l2/mean": 0.886015976609637
+        },
+        "task-0022": {
+          "l2_moved/mean": 7.570902778772031,
+          "l2_static/mean": 0.8147708477113756,
+          "l2/mean": 0.9380131715438599
+        },
+        "task-0035": {
+          "l2_moved/mean": 8.10519675203905,
+          "l2_static/mean": 0.8785438467389546,
+          "l2/mean": 0.954829835708701
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "effect_transport",
+      "selected_update": 5000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 94.06329027188303,
+        "l2_static/mean": 1.52875894783886,
+        "l2/mean": 3.558448108089147
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 70.41114606757093,
+          "l2_static/mean": 1.406792972039677,
+          "l2/mean": 3.244000697908458
+        },
+        "task-0001": {
+          "l2_moved/mean": 103.67525201916591,
+          "l2_static/mean": 1.3448431475954803,
+          "l2/mean": 6.780633853711584
+        },
+        "task-0008": {
+          "l2_moved/mean": 87.20729272072035,
+          "l2_static/mean": 2.0169436747114013,
+          "l2/mean": 3.6258342641359693
+        },
+        "task-0011": {
+          "l2_moved/mean": 133.32663505843405,
+          "l2_static/mean": 2.127585967668546,
+          "l2/mean": 5.421633424685362
+        },
+        "task-0018": {
+          "l2_moved/mean": 75.84349808252944,
+          "l2_static/mean": 1.0711831530605131,
+          "l2/mean": 1.769957360889393
+        },
+        "task-0019": {
+          "l2_moved/mean": 93.09049286439699,
+          "l2_static/mean": 1.2990564960748865,
+          "l2/mean": 1.669246127769715
+        },
+        "task-0022": {
+          "l2_moved/mean": 112.57915385090004,
+          "l2_static/mean": 1.5341074546285336,
+          "l2/mean": 3.791012100708358
+        },
+        "task-0035": {
+          "l2_moved/mean": 76.37285151134655,
+          "l2_static/mean": 1.429558716931842,
+          "l2/mean": 2.165267034904334
+        }
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "effect_transport_persistent",
+      "selected_update": 5000,
+      "clips": 23068,
+      "key_sha256": "f9e9dd1ef6544b9fc03c8274a0ecddf326adb94a7f81410640581d81912a50d8",
+      "valid_clips_per_metric": {
+        "behavior/confidence/max": 23068,
+        "behavior/confidence/mean": 23068,
+        "behavior/confidence/min": 23068,
+        "behavior/confidence/std": 23068,
+        "behavior/dynamics_loss": 23068,
+        "behavior/l2/mean": 23068,
+        "behavior/l2_conf/mean": 23068,
+        "behavior/l2_moved/mean": 18530,
+        "behavior/l2_moved_conf/mean": 18530,
+        "behavior/l2_static/mean": 23068,
+        "behavior/l2_static_conf/mean": 23068,
+        "behavior/moved_percentage": 23068,
+        "behavior/pred/max": 23068,
+        "behavior/pred/mean": 23068,
+        "behavior/pred/min": 23068,
+        "behavior/pred_moved/max": 18530,
+        "behavior/pred_moved/mean": 18530,
+        "behavior/pred_moved/min": 18530,
+        "behavior/pred_static/max": 23068,
+        "behavior/pred_static/mean": 23068,
+        "behavior/pred_static/min": 23068,
+        "behavior/static_percentage": 23068,
+        "behavior/supervised_percentage": 23068,
+        "behavior/total_loss": 23068,
+        "behavior/uncertainty/mean": 23068,
+        "behavior/weights/mean": 23068,
+        "behavior/weights/sum": 23068,
+        "confidence/max": 23068,
+        "confidence/mean": 23068,
+        "confidence/min": 23068,
+        "confidence/std": 23068,
+        "dynamics_loss": 23068,
+        "l2/mean": 23068,
+        "l2_conf/mean": 23068,
+        "l2_moved/mean": 18530,
+        "l2_moved_conf/mean": 18530,
+        "l2_static/mean": 23068,
+        "l2_static_conf/mean": 23068,
+        "moved_percentage": 23068,
+        "pred/max": 23068,
+        "pred/mean": 23068,
+        "pred/min": 23068,
+        "pred_moved/max": 18530,
+        "pred_moved/mean": 18530,
+        "pred_moved/min": 18530,
+        "pred_static/max": 23068,
+        "pred_static/mean": 23068,
+        "pred_static/min": 23068,
+        "static_percentage": 23068,
+        "supervised_percentage": 23068,
+        "total_loss": 23068,
+        "uncertainty/mean": 23068,
+        "weights/mean": 23068,
+        "weights/sum": 23068
+      },
+      "task_episode_macro_mm": {
+        "l2_moved/mean": 94.06135943407227,
+        "l2_static/mean": 1.3065149577791388,
+        "l2/mean": 3.3515764231229284
+      },
+      "per_task_episode_macro_mm": {
+        "task-0000": {
+          "l2_moved/mean": 71.04727189652216,
+          "l2_static/mean": 1.2193117725142222,
+          "l2/mean": 3.063084153282411
+        },
+        "task-0001": {
+          "l2_moved/mean": 103.53656295848897,
+          "l2_static/mean": 1.1833627699041596,
+          "l2/mean": 6.609129068258232
+        },
+        "task-0008": {
+          "l2_moved/mean": 86.81264187857246,
+          "l2_static/mean": 1.8126448146301821,
+          "l2/mean": 3.4289266526318816
+        },
+        "task-0011": {
+          "l2_moved/mean": 137.0857719997573,
+          "l2_static/mean": 1.9146183026849226,
+          "l2/mean": 5.338033668754192
+        },
+        "task-0018": {
+          "l2_moved/mean": 75.08917972240869,
+          "l2_static/mean": 0.8287098284383358,
+          "l2/mean": 1.5227463916662596
+        },
+        "task-0019": {
+          "l2_moved/mean": 91.55423197379845,
+          "l2_static/mean": 1.0229374472557242,
+          "l2/mean": 1.387909458816722
+        },
+        "task-0022": {
+          "l2_moved/mean": 111.27300198031371,
+          "l2_static/mean": 1.0072617890021267,
+          "l2/mean": 3.2651016291324595
+        },
+        "task-0035": {
+          "l2_moved/mean": 76.09221306271645,
+          "l2_static/mean": 1.4632729378034397,
+          "l2/mean": 2.1976803624412686
+        }
+      }
+    }
+  ],
+  "paired_differences": [
+    {
+      "seed": 21,
+      "comparison": "cira_persistent_minus_cira",
+      "delta_mm": {
+        "l2_moved/mean": -0.21746573116798018,
+        "l2_static/mean": 0.2926079174736388,
+        "l2/mean": 0.2806102037657777
+      },
+      "relative_improvement_percent": {
+        "l2_moved/mean": 2.1522573831080227,
+        "l2_static/mean": -41.48464214302029,
+        "l2/mean": -31.551064439269158
+      }
+    },
+    {
+      "seed": 22,
+      "comparison": "cira_persistent_minus_cira",
+      "delta_mm": {
+        "l2_moved/mean": -0.01652351183151346,
+        "l2_static/mean": 0.09140371822608995,
+        "l2/mean": 0.08902543262999296
+      },
+      "relative_improvement_percent": {
+        "l2_moved/mean": 0.16221944681515935,
+        "l2_static/mean": -12.227043714694094,
+        "l2/mean": -9.541614459605729
+      }
+    },
+    {
+      "seed": 21,
+      "comparison": "effect_transport_minus_cira",
+      "delta_mm": {
+        "l2_moved/mean": 84.43661949734059,
+        "l2_static/mean": 0.9794192614308406,
+        "l2/mean": 2.8224031718301474
+      },
+      "relative_improvement_percent": {
+        "l2_moved/mean": -835.6688510957079,
+        "l2_static/mean": -138.85768341213839,
+        "l2/mean": -317.343500531932
+      }
+    },
+    {
+      "seed": 22,
+      "comparison": "effect_transport_minus_cira",
+      "delta_mm": {
+        "l2_moved/mean": 83.8773895331503,
+        "l2_static/mean": 0.7812052434528709,
+        "l2/mean": 2.6254253685215327
+      },
+      "relative_improvement_percent": {
+        "l2_moved/mean": -823.4656088312311,
+        "l2_static/mean": -104.5015547203424,
+        "l2/mean": -281.3892156302878
+      }
+    },
+    {
+      "seed": 21,
+      "comparison": "effect_transport_persistent_minus_effect_transport",
+      "delta_mm": {
+        "l2_moved/mean": 1.2184816007586932,
+        "l2_static/mean": 0.6147887171937245,
+        "l2/mean": 0.6190414376016169
+      },
+      "relative_improvement_percent": {
+        "l2_moved/mean": -1.288843485529603,
+        "l2_static/mean": -36.49118339031852,
+        "l2/mean": -16.67771787854387
+      }
+    },
+    {
+      "seed": 22,
+      "comparison": "effect_transport_persistent_minus_effect_transport",
+      "delta_mm": {
+        "l2_moved/mean": -0.001930837810760977,
+        "l2_static/mean": -0.22224399005972106,
+        "l2/mean": -0.20687168496621844
+      },
+      "relative_improvement_percent": {
+        "l2_moved/mean": 0.0020527006924593344,
+        "l2_static/mean": 14.537543042603135,
+        "l2/mean": 5.813536650877469
+      }
+    }
+  ],
+  "seed_statistics": {
+    "cira": {
+      "l2_moved/mean": {
+        "mean_mm": 10.144988589208435,
+        "seed_std_mm": 0.057858516723089885
+      },
+      "l2_static/mean": {
+        "mean_mm": 0.7264470240422044,
+        "seed_std_mm": 0.029849353598853802
+      },
+      "l2/mean": {
+        "mean_mm": 0.9112035041900935,
+        "seed_std_mm": 0.030857058591500498
+      }
+    },
+    "cira_persistent": {
+      "l2_moved/mean": {
+        "mean_mm": 10.027993967708689,
+        "seed_std_mm": 0.1999461226425801
+      },
+      "l2_static/mean": {
+        "mean_mm": 0.9184528418920688,
+        "seed_std_mm": 0.11242350009229722
+      },
+      "l2/mean": {
+        "mean_mm": 1.096021322387979,
+        "seed_std_mm": 0.10461383225068564
+      }
+    },
+    "effect_transport": {
+      "l2_moved/mean": {
+        "mean_mm": 94.30199310445389,
+        "seed_std_mm": 0.3375767831985621
+      },
+      "l2_static/mean": {
+        "mean_mm": 1.6067592764840601,
+        "seed_std_mm": 0.1103091226396008
+      },
+      "l2/mean": {
+        "mean_mm": 3.6351177743659333,
+        "seed_std_mm": 0.10842728187125092
+      }
+    },
+    "effect_transport_persistent": {
+      "l2_moved/mean": {
+        "mean_mm": 94.91026848592784,
+        "seed_std_mm": 1.200538694355434
+      },
+      "l2_static/mean": {
+        "mean_mm": 1.8030316400510618,
+        "seed_std_mm": 0.7021806260134464
+      },
+      "l2/mean": {
+        "mean_mm": 3.8412026506836328,
+        "seed_std_mm": 0.6924360515099235
+      }
+    }
+  },
+  "ranking": "NOT_EVALUATED",
+  "intervention_response": "NOT_EVALUATED",
+  "closed_loop": "NOT_EVALUATED",
+  "causal_identification": false,
+  "warning": "Two matched contrasts, not strict factorial mechanism identification; the existing test has been inspected in prior development.",
+  "evaluation_revision": {
+    "id": "cira_eval_nonempty_camera_v1",
+    "status": "EVALUATION_REVISION_REQUIRES_EXPLICIT_APPROVAL",
+    "max_attempts": 32,
+    "seed": 42,
+    "first_draw": "unchanged original deterministic per-clip draw",
+    "retry": "same clip, original camera sampler, deterministic attempt seeds",
+    "acceptance": "selected cameras contain at least one initial visible scene point",
+    "selection_uses": "camera point support only; no model prediction, error or future motion",
+    "all_models_same_rule": true,
+    "skip_samples": false,
+    "change_training_or_selected_weights": false,
+    "change_successful_first_draws": false,
+    "original_failed_protocol_is_preserved": true
+  },
+  "source_campaign": "/vepfs/intern/shiguo.du/pointworld/artifacts/cira_candidates_fused_behavior8_20261021_v2_memfix",
+  "camera_changed_clips_per_run": 1
+}

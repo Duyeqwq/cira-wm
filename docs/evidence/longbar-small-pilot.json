@@ -1,0 +1,94 @@
+{
+  "status": "COMPLETED_SMALL_DEVELOPMENT_PILOT",
+  "per_model": {
+    "pointworld_seed21": {
+      "successes": 3,
+      "attempts": 3,
+      "rate": 1.0,
+      "wilson95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "mean_final_goal_error_mm": 3.775666753078635,
+      "episode_macro_executed_prefix_object_epe_mm": 4.155384508253433
+    },
+    "pointworld_seed22": {
+      "successes": 1,
+      "attempts": 3,
+      "rate": 0.3333333333333333,
+      "wilson95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_final_goal_error_mm": 3.6551507102048686,
+      "episode_macro_executed_prefix_object_epe_mm": 6.333567314898636
+    },
+    "cira_seed21": {
+      "successes": 2,
+      "attempts": 3,
+      "rate": 0.6666666666666666,
+      "wilson95": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "mean_final_goal_error_mm": 4.515608232973246,
+      "episode_macro_executed_prefix_object_epe_mm": 4.537466965129866
+    },
+    "cira_seed22": {
+      "successes": 2,
+      "attempts": 3,
+      "rate": 0.6666666666666666,
+      "wilson95": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "mean_final_goal_error_mm": 5.2107635220186905,
+      "episode_macro_executed_prefix_object_epe_mm": 5.178663142029313
+    },
+    "cira_persistent_seed21": {
+      "successes": 3,
+      "attempts": 3,
+      "rate": 1.0,
+      "wilson95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "mean_final_goal_error_mm": 5.058536093105293,
+      "episode_macro_executed_prefix_object_epe_mm": 3.7657787152582762
+    },
+    "cira_persistent_seed22": {
+      "successes": 3,
+      "attempts": 3,
+      "rate": 1.0,
+      "wilson95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "mean_final_goal_error_mm": 4.502573609208709,
+      "episode_macro_executed_prefix_object_epe_mm": 4.1485520016108755
+    }
+  },
+  "per_family": {
+    "cira": {
+      "seed_mean": 0.6666666666666666,
+      "seed_std_population": 0.0
+    },
+    "cira_persistent": {
+      "seed_mean": 1.0,
+      "seed_std_population": 0.0
+    },
+    "pointworld": {
+      "seed_mean": 0.6666666666666666,
+      "seed_std_population": 0.33333333333333337
+    }
+  },
+  "independent_initial_states": 3,
+  "task": "CPU-physics long-bar push after scripted contact",
+  "planner": "64 fixed-candidate MPC; RGB-D/FK refreshed, not MPPI",
+  "limits": [
+    "three default physical scenes; no broad significance claim",
+    "privileged simulator instance mask for visible target points",
+    "old baseline/CIRA and new persistent selection rules differ",
+    "not drawer, hardware or official eight-task SR"
+  ]
+}

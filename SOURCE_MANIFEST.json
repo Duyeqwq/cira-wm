@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-27",
+  "upstream": "https://github.com/NVlabs/PointWorld",
+  "upstream_commit": "05484826dfef74cbe278a3974179a5a16705d35d",
+  "source_mode": "compact public companion; selected core modules only",
+  "files": [
+    {
+      "path": "outputs/cira_constraint_research_20261021/constraint_transport.py",
+      "sha256": "6f29810585178c9475a29031551df75820207078b39789c5ca8ba0b05a630643",
+      "bytes": 6375
+    },
+    {
+      "path": "outputs/cira_constraint_research_20261021/test_transport.py",
+      "sha256": "802bf7244ee9b5177526e2fc42865def6e5b1138fd86c2bbdd7c54839eb75ea6",
+      "bytes": 7509
+    },
+    {
+      "path": "pointworld/scripts/cira_pointworld/__init__.py",
+      "sha256": "c70a16d09e325144865e547ea4f8578c9e9b429d0b3c52fb0626da0590f39c25",
+      "bytes": 83
+    },
+    {
+      "path": "pointworld/scripts/cira_pointworld/adapter.py",
+      "sha256": "c1574b15b4c9fae35439d855347859e3c41d92a3404718182e613d3d0beaa240",
+      "bytes": 11000
+    },
+    {
+      "path": "pointworld/scripts/pointworld_interaction/__init__.py",
+      "sha256": "4723280a7feb76b0a9cc0fff8c7de8f63571332a92718e6a346c4d681fce449d",
+      "bytes": 80
+    },
+    {
+      "path": "pointworld/scripts/pointworld_interaction/adapter.py",
+      "sha256": "2d0d194cab83df678382c885a05c9917ed37230b9d86c298b54a71f8c3d1e3b6",
+      "bytes": 12418
+    }
+  ],
+  "media": [
+    {
+      "path": "docs/media/longbar-interventions.mp4",
+      "source": "manskill/artifacts/dual_panda_bar_pilot/scene_000/all6_comparison.mp4",
+      "title": "Long-bar intervention preview",
+      "interpretation": "simulation intervention grid; not CIRA predictions",
+      "sha256": "b163ad21ebd6dc44cb446271ac21fb43f44523e8eb8d7fd137ce974b6a66d983",
+      "bytes": 373212,
+      "decoded_frames": 143,
+      "fps": 15.0,
+      "size": [
+        960,
+        480
+      ]
+    },
+    {
+      "path": "docs/media/asymmetric-contact.mp4",
+      "source": "manskill/artifacts/dual_panda_asymmetric_support_pilot_v1/asymmetric_contact_grid.mp4",
+      "title": "Asymmetric contact preview",
+      "interpretation": "simulation contact grid; not a learned-model comparison",
+      "sha256": "3c395e092bbd654f8ce883cf554643e9ebf02a548792bbc85b180b821f630459",
+      "bytes": 583826,
+      "decoded_frames": 153,
+      "fps": 15.0,
+      "size": [
+        1440,
+        540
+      ]
+    },
+    {
+      "path": "docs/media/drawer-transfer.mp4",
+      "source": "manskill/artifacts/drawer_long_slide_pick_v1/transfer_seed3300_replay.mp4",
+      "title": "Drawer transfer preview",
+      "interpretation": "scripted simulation replay; not closed-loop CIRA success evidence",
+      "sha256": "89da9c8e1a977a10075ebdb3a1708a1c10a55c8466018072954eddefa8d42d00",
+      "bytes": 1757657,
+      "decoded_frames": 426,
+      "fps": 10.0,
+      "size": [
+        1280,
+        576
+      ]
+    }
+  ],
+  "excluded": [
+    "datasets",
+    "checkpoints",
+    "raw experimental artifacts",
+    "real-cloth third-party source bundle",
+    "unrelated workspace projects",
+    "legacy M1-M4 rigid-model comparison videos",
+    "training/campaign runtime",
+    "full PointWorld backbone"
+  ],
+  "full_research_repository": {
+    "name": "D-Star-Robotics/CIRA-WM",
+    "visibility": "private",
+    "source_commit": "e5312d488c8034be940bc3fc82586e1f25eb4c3a"
+  }
+}
